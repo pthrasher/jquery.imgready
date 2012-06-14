@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Jquery.imgready by pthrasher</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/pthrasher/jquery.imgready">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Jquery.imgready</h1>
+            <h2>Fires a callback when the given image(s) finish loading.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/pthrasher/jquery.imgready/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/pthrasher/jquery.imgready/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>jQuery imgReady</h1>
+
+<p>Fires a callback when the given image(s) finish loading.</p>
+
+<h2>Getting Started</h2>
+
+<p>Download the <a href="https://raw.github.com/pthrasher/jquery.imgready/master/dist/jquery.imgready.min.js">production version</a> or the <a href="https://raw.github.com/pthrasher/jquery.imgready/master/dist/jquery.imgready.js">development version</a>.</p>
+
+<p>In your web page:</p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"jquery.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"dist/jquery.imgready.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+<span class="nx">jQuery</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$</span><span class="p">)</span> <span class="p">{</span>
+
+  <span class="nx">$</span><span class="p">(</span><span class="s2">"img"</span><span class="p">).</span><span class="nx">imgReady</span><span class="p">({</span>
+    <span class="nx">callback</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="c1">// Do something now that the images are loaded.</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+
+<span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</pre>
+</div>
+
+
+<h2>Documentation</h2>
+
+<p><em>(Coming soon)</em></p>
+
+<h2>Examples</h2>
+
+<p><em>(Coming soon)</em></p>
+
+<h2>Contributing</h2>
+
+<p>In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using <a href="https://github.com/cowboy/grunt">grunt</a>.</p>
+
+<p><em>Also, please don't edit files in the "dist" subdirectory as they are generated via grunt. You'll find source code in the "src" subdirectory!</em></p>
+
+<h2>Release History</h2>
+
+<p>0.1.0 - Initial release.</p>
+
+<h2>License</h2>
+
+<p>Copyright (c) 2012 Philip Thrasher<br>
+Licensed under the MIT license.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/pthrasher">pthrasher</a> can be found on <a href="https://github.com/pthrasher/jquery.imgready">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
