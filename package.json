@@ -1,0 +1,29 @@
+{
+  "name": "jquery.imgready",
+  "title": "jQuery imgReady",
+  "description": "Fires a callback when the given image(s) finish loading.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pthrasher/jquery.imgready",
+  "author": {
+    "name": "Philip Thrasher",
+    "email": "philipthrasher@gmail.com",
+    "url": "http://philipthrasher.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pthrasher/jquery.imgready.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pthrasher/jquery.imgready/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pthrasher/jquery.imgready/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "~1.7"
+  },
+  "keywords": []
+}
